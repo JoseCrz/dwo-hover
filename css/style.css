@@ -4,7 +4,7 @@
   padding: 20px;
   border: 2px solid blue;
   font-family: 'Lato', sans-serif;
-  transition: .4s;
+  transition: .5s;
   overflow: hidden;
 }
 
@@ -13,10 +13,11 @@
 }
 
 img, p {
-  transition: 1s;
+  transition: .6s;
 }
 
 .post:hover img {
+  transform: translateY(0);
   transform: scale(1.2);
 }
 
@@ -26,4 +27,8 @@ img, p {
 
 .post:hover p {
   transform: translateY(0);
+}
+
+.post img {
+  transform: translateY(-300px);
 }
