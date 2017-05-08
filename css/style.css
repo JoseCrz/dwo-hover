@@ -1,0 +1,12 @@
+
+.post {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid blue;
+  font-family: 'Lato', sans-serif;
+  transition: .4s;
+}
+
+.post:hover {
+  background: #80D7FD;
+}
